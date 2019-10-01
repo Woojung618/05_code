@@ -7,8 +7,8 @@ int main(int argc, char *argv[]) {
 	int input;
 	printf("input a number :");
 	scanf("%d",&input);
-	if (input >0)
-	printf("양수입니다.\n");
-	else printf("양수가 아닙니다.\n");
+	if (input >=0)
+	printf("%d",input);
+	else printf("%d",-1*input);
 	
 }
